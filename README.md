@@ -7,53 +7,20 @@ Welcome to my Python Exploratory Data Analysis (EDA) Portfolio! This repository 
 # 1. Zomato-Data-Analysis
 Zomato API Analysis is one of the most useful analysis for foodies who want to taste the best cuisines of every part of the world which lies in their budget. This analysis is also for those who want to find value-for-money restaurants in various parts of the country for cuisines. Additionally, this analysis caters to the needs of people who are striving to get the best cuisine of the country and which locality of that country serves that cuisine with the maximum number of restaurants.
 
-# Dataset Details
+# 2. Black-Friday-EDA
+A retail company “ABC Private Limited” wants to understand the customer purchase behaviour (specifically, purchase amount) against various products of different categories. They have shared purchase summary of various customers for selected high volume products from last month. The data set also contains customer demographics (age, gender, marital status, city_type, stay_in_current_city), product details (product_id and product category) and Total purchase_amount from last month.
 
-Restaurant Id: Unique id of every restaurant across various cities of the world
+Now, they want to do data analysis to build a model to predict the purchase amount of customer against various products which will help them to create personalized offer for customers against different products.
 
-Restaurant Name: Name of the restaurant
+# 3. Flight ticket prices can be something hard to guess, today we might see a price, check out the price of the same flight tomorrow, and it will be a different story.
 
-Country Code: Country in which restaurant is located
+To solve this problem, we have been provided with prices of flight tickets for various airlines between the months of March and June of 2019 and between various cities, using which we aim to build a model which predicts the prices of the flights using various input features.
 
-City: City in which restaurant is located
+We have 2 datasets here — training set and test set.
 
-Address: Address of the restaurant
+The training set contains the features, along with the prices of the flights. It contains 10683 records, 10 input features and 1 output column — ‘Price’.
 
-Locality: Location in the city
-
-Locality Verbose: Detailed description of the locality
-
-Longitude: Longitude coordinate of the restaurant’s location
-
-Latitude: Latitude coordinate of the restaurant’s location
-
-Cuisines: Cuisines offered by the restaurant
-
-Average Cost for two: Cost for two people in different currencies
-
-Currency: Currency of the country
-
-Has Table booking: yes/no
-
-Has Online delivery: yes/ no
-
-Is delivering: yes/ no
-
-Switch to order menu: yes/no
-
-Price range: range of price of food
-
-Aggregate Rating: Average rating out of 5
-
-Rating color: depending upon the average rating color
-
-Rating text: text on the basis of rating of rating
-
-Votes: Number of ratings casted by people
-
-
-- **Black Friday Analysis** – Customer purchasing patterns, spending behavior, and demographic analysis.
-- **Flight Price Analysis** – Airline fare trends, feature analysis, and factors influencing ticket prices.
+The test set contains 2671 records and 10 input features. The output ‘Price’ column needs to be predicted in this set. We will use Regression techniques here, since the predicted output will be a continuous value.
 
 ## 🛠️ Python Skills Demonstrated
 
